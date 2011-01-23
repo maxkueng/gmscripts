@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           SomaFM Prevent Autoplay
 // @namespace      http://maxkueng.com/gmscripts
-// @description    Prevents auto-forwart to the stream and links the "Listen" links directly to the audio stream
+// @description    Prevents auto-forward to the stream and links the "Listen" links directly to the audio stream
 // @version        1.0
 // @author         Max Kueng
 // @homepage       http://maxkueng.com/
