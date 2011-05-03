@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           SomaFM Prevent Autoplay
 // @namespace      http://maxkueng.com/gmscripts
-// @description    x
+// @description    Prevents auto-forward to the stream and links the "Listen" links directly to the audio stream
 // @version        1.0
 // @author         Max Kueng
 // @homepage       http://maxkueng.com/
@@ -16,7 +16,6 @@
 	var reg_href = /.+\/play\/([a-z0-9\/]+)$/i;
 	for (var i = 0; i < links.length; i++) {
 		if (links[i].href.match(reg_href)) {
-		//if (true) {
 
 			var has_img = false;
 			var children = links[i].childNodes;
